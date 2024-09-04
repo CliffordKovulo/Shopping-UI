@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping UI</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <div class="parent">
+        <div class="nav">
+            <nav>
+                <img class="logo" src="./images/Sony-Logo.png" alt="">
+                <ul>
+                    <li>Home</li>
+                    <li>Shop</li>
+                    <li>Contact</li>
+                    <li>Help</li>
+                </ul>
+                <select name="items" id="items">
+                    <option value="account">Account</option>
+                </select>
+                <div class="lock">
+                    <img class="purchase" src="./images/padlock.png" alt="Lock Purchase">
+                    <p>3 Items</p>
+                </div>
+                <img class="profile" src="./images/gym-guy.jpg" alt="">
+            </nav>
+            <hr>
+        </div>
+        <div class="child">
+            <div class="child1">
+                <aside>
+                    <div class="selected">
+                        <p style="color: skyblue;">Account</p>
+                        <img class="check-mark" src="./images/check-mark.webp" alt="Check mark">
+                    </div>
+                    <div class="unselected">
+                        <p>Shipping</p>
+                        <img class="check-mark" src="./images/check-mark.webp" alt="check-mark">
+                        <p>Payment</p>
+                    </div>
+
+                </aside>
+                <div class="form">
+                    <h4>Account Details</h4>
+                    <form action="login">
+                        <label for="email">
+                            Email Address
+                        </label><br><br>
+                        <input type="email" name="email" placeholder="Enter your Email">
+                        <br><br>
+                        <label for="password">Password</label><br><br>
+                        <input type="password" name="password" placeholder="Enter your Password">
+                    </form><br>
+                    <div class="login">
+                        <label for="register">Register for Account</label>
+                        <button>Login</button>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="order">
+                    <hr>
+                    <div class="details">
+                        <label for="cancel">Cancel Order</label>
+                        <button>Shopping Details</button>
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="child2">
+                <aside>
+                    <h4 style="margin-left: 40px;">Order Summary</h4>
+                    <div class="headphones">
+                        <img class="sony-headphones" src="./images/sony headphones.webp" alt="">
+                    </div>
+                    <div class="all">
+                        <div class="description">
+                            <p><strong>Sony Wireless Headphones</strong></p>
+                            <h4>£320.45</h4>
+                        </div>
+                        <div class="items">
+                            <img class="minus" src="./images/minus-sign.png" alt="Remove Items">
+                            <p>1</p>
+                            <img class="add" src="./images/addition.png" alt="Add Items">
+                        </div>
+                    </div>
+
+                    <div class="filter">
+                        <p style="color: grey;">Gift Card/ Discount code</p>
+                        <input type="text" name="filter">
+                        <button>Apply</button>
+                    </div>
+                    <div class="cost">
+                        <p>Sub Total <span>£316.55</span></p>
+                        <p>Tax <span>£3.45</span></p>
+                        <p>Shipping <span style="color:rgb(11, 200, 137);">Free</span></p>
+                        <p><strong>Total</strong> <span>£320.45</span></p>
+                    </div>
+                    
+                    
+                </aside>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
