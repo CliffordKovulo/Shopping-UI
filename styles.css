@@ -47,7 +47,7 @@ nav li{
 
 .child1{
     background-color: aliceblue;
-    height: 100vh;
+    /* height: ; */
     width: 55%;
     border-radius: 20px;
     margin-left: 20px;
@@ -58,7 +58,7 @@ nav li{
 
 .child2{
     background-color: aliceblue;
-    height: 100vh;
+    /* height: 120%; */
     width: 40%;
     border-radius: 20px;
     margin-right: 20px;
@@ -100,26 +100,27 @@ nav li{
 
 .form{
     align-items: left;
-    margin-left: 215px;
+    margin-left: 25%;
 }
 
 input{
     border-radius: 5px;
     border: none;
     padding: 10px;
-    padding-right: 160px;
+    padding-right: 180px;
     background-color: rgb(222, 234, 244);
 }
 
-.form{
+/* .form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-}
+} */
 
 .order{
-    margin-top: 200px;
+    margin-top: 300px;
+    width: 100%;
 }
 
 button{
@@ -138,9 +139,21 @@ button{
     justify-content: space-between;
 }
 
+
 .details{
-    margin-left: 345px;
-    margin-top: 40px;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 350px;
+    margin-top: 80px;
+}
+
+.details button{
+    margin-left: 0;
+    margin-right: 140px;
 }
 
 .sony-headphones{
@@ -176,8 +189,20 @@ button{
 
 }
 
+
+
 .filter{
-    margin-left: 40px;
+    width: 80%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 10%;
+}
+
+.filter input{
+    width: 30%;
+    margin-right: 10px;
 }
 
 .filter button{
@@ -196,6 +221,7 @@ span{
     margin-left: 350px;
     margin-right: 20px;
     padding-right: 20px;
+    margin-bottom: 40px;
     text-align: right;
     height: 0px;
     display: flex;
